@@ -1,0 +1,34 @@
+{
+	"background": {
+		"width": 552, 
+		"height": 644,
+		"day": { "key": "background1" },
+		"night": { "key": "background2" },
+		"apocalypse": { "key": "background3" }
+	},
+	"bird": {
+		"width": 85,
+		"height": 60,
+		"red": { "key": "bird1" },
+		"blue": { "key": "bird2" },
+		"yellow": { "key": "bird3" },
+		"rainbow": { "key": "bird4" },
+		"animation": { "flap": "bird-animation" }
+	},
+	"ground": { "key": "ground", "width": 336, "height": 112 },
+	"pipe": { "key": "pipe", "width": 104, "height": 473 },
+	"text": {
+		"logo": { "key": "logo", "width": 384, "height": 473 },
+		"gameover": { "key": "gameover" },
+		"getready": {
+			"width": 460, 
+			"height": 336,
+			"unclicked": { "key": "getready1" },
+			"clicked": { "key": "getready2" },
+			"animation": { "click": "getready-animation" }
+		}
+	},
+	"button": { 
+		"start": { "key": "button1" }
+	}
+}

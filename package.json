@@ -1,0 +1,14 @@
+{
+  "name": "flappybird",
+  "version": "0.1.1",
+  "description": "flappy bird clone for dekstop application",
+  "main": "src/server.js",
+  "author": "robifr",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 16.8.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,15 @@
+**/node_modules/
+
+#nw.js sdk v0.58.0-sdk --- https://nwjs.io
+nwjs/
+
+#phaser.js v3.55.2 --- https://github.com/photonstorm/phaser
+# src/lib/phaser.min.js
+
+#final executable running application
+dist/*
+!dist/.gitkeep
+
+#inno setup auto generated file.
+**.iss
+**.ico

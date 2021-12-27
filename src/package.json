@@ -1,0 +1,25 @@
+{
+  "name": "flappybird",
+  "version": "0.1.1",
+  "description": "flappy bird clone for dekstop application",
+  "node-main": "server.js",
+  "main": "http://127.0.0.1:4622",
+  "node-remote": "http://127.0.0.1:4622",
+  "author": "robifr",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 16.8.0"
+  },
+  "window": {
+    "icon": "./assets/logo/bird.png",
+    "width": 850,
+    "height": 600,
+    "resizable": true,
+    "toolbar": false,
+    "position": "center"
+  },
+  "chromium-args": "--disable-raf-throttling",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
